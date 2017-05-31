@@ -1,0 +1,213 @@
+<keymap version="1" name="User" parent="Default for XWin">
+  <action id="ActivateDatabaseConsoleToolWindow">
+    <keyboard-shortcut first-keystroke="altGraph 5" />
+  </action>
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="altGraph 2" />
+  </action>
+  <action id="ActivateGradleToolWindow">
+    <keyboard-shortcut first-keystroke="altGraph 3" />
+  </action>
+  <action id="ActivateMavenProjectsToolWindow">
+    <keyboard-shortcut first-keystroke="altGraph 4" />
+  </action>
+  <action id="ActivateReviewsToolWindow">
+    <keyboard-shortcut first-keystroke="altGraph u" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="ctrl altGraph left" />
+  </action>
+  <action id="ByteCodeViewer">
+    <keyboard-shortcut first-keystroke="alt altGraph b" />
+  </action>
+  <action id="ChangesView.Refresh">
+    <keyboard-shortcut first-keystroke="shift ctrl y" />
+  </action>
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="CommittedChanges.Refresh">
+    <keyboard-shortcut first-keystroke="shift ctrl y" />
+  </action>
+  <action id="CompareTwoFiles" />
+  <action id="Console.History.Browse" />
+  <action id="Console.TableResult.NextPage" />
+  <action id="Console.TableResult.PreviousPage" />
+  <action id="ConsoleView.ClearAll">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="EditorBackwardParagraph">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="EditorContextInfo" />
+  <action id="EditorCutLineEnd">
+    <keyboard-shortcut first-keystroke="altGraph s" />
+  </action>
+  <action id="EditorDeleteToLineEnd">
+    <keyboard-shortcut first-keystroke="altGraph e" />
+  </action>
+  <action id="EditorDeleteToLineStart">
+    <keyboard-shortcut first-keystroke="altGraph q" />
+  </action>
+  <action id="EditorDeleteToWordEnd">
+    <keyboard-shortcut first-keystroke="ctrl delete" />
+    <keyboard-shortcut first-keystroke="altGraph x" />
+  </action>
+  <action id="EditorDeleteToWordEndInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="altGraph v" />
+  </action>
+  <action id="EditorDeleteToWordStart">
+    <keyboard-shortcut first-keystroke="ctrl back_space" />
+    <keyboard-shortcut first-keystroke="altGraph z" />
+  </action>
+  <action id="EditorDeleteToWordStartInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="altGraph c" />
+  </action>
+  <action id="EditorForwardParagraph">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="end" />
+    <keyboard-shortcut first-keystroke="altGraph d" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="altGraph a" />
+  </action>
+  <action id="EditorNextWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="altGraph right" />
+  </action>
+  <action id="EditorNextWordInDifferentHumpsModeWithSelection">
+    <keyboard-shortcut first-keystroke="shift altGraph right" />
+  </action>
+  <action id="EditorPreviousWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="altGraph left" />
+  </action>
+  <action id="EditorPreviousWordInDifferentHumpsModeWithSelection">
+    <keyboard-shortcut first-keystroke="shift altGraph left" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="altGraph w" />
+  </action>
+  <action id="FileChooser.GotoDesktop" />
+  <action id="FileMenu">
+    <keyboard-shortcut first-keystroke="altGraph f1" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="ctrl altGraph right" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="altGraph n" />
+  </action>
+  <action id="Git.CheckoutRevision">
+    <keyboard-shortcut first-keystroke="alt altGraph r" />
+  </action>
+  <action id="Git.CreateNewBranch">
+    <keyboard-shortcut first-keystroke="altGraph b" />
+  </action>
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
+  <action id="GotoNextBookmark">
+    <keyboard-shortcut first-keystroke="altGraph f11" />
+  </action>
+  <action id="GotoPreviousBookmark">
+    <keyboard-shortcut first-keystroke="ctrl altGraph f11" />
+  </action>
+  <action id="GuiDesigner.Duplicate" />
+  <action id="Images.Thumbnails.Hide">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="IncomingChanges.Refresh">
+    <keyboard-shortcut first-keystroke="shift ctrl y" />
+  </action>
+  <action id="LocalHistory">
+    <keyboard-shortcut first-keystroke="altGraph h" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="ctrl alt 1" />
+  </action>
+  <action id="NewScratchFile">
+    <keyboard-shortcut first-keystroke="shift ctrl alt insert" />
+    <keyboard-shortcut first-keystroke="shift ctrl altGraph insert" />
+  </action>
+  <action id="NextOccurence" />
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
+  </action>
+  <action id="PerforceDirect.Edit" />
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
+  </action>
+  <action id="PreviousOccurence" />
+  <action id="RecentFiles" />
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="altGraph r" />
+  </action>
+  <action id="Runner.CloseAllViews">
+    <keyboard-shortcut first-keystroke="ctrl alt e" />
+  </action>
+  <action id="Scala.Explain" />
+  <action id="ScrollFromSource">
+    <keyboard-shortcut first-keystroke="ctrl meta s" />
+    <keyboard-shortcut first-keystroke="altGraph back_quote" />
+  </action>
+  <action id="SendEOF" />
+  <action id="ShowKotlinBytecode">
+    <keyboard-shortcut first-keystroke="alt altGraph k" />
+  </action>
+  <action id="ShowProjectStructureSettings">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+  <action id="ShowUmlDiagram">
+    <keyboard-shortcut first-keystroke="shift ctrl alt u" />
+    <keyboard-shortcut first-keystroke="ctrl alt u" />
+  </action>
+  <action id="ShowUmlDiagramPopup" />
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="alt quote" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="alt back_slash" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="UnsplitAll">
+    <keyboard-shortcut first-keystroke="alt semicolon" />
+  </action>
+  <action id="UsageView.ShowRecentFindUsages" />
+  <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="openAssertEqualsDiff" />
+</keymap>

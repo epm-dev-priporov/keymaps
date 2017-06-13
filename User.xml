@@ -18,6 +18,9 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="alt altGraph a" />
+  </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
     <mouse-shortcut keystroke="button4" />
@@ -38,6 +41,9 @@
   </action>
   <action id="CommittedChanges.Refresh">
     <keyboard-shortcut first-keystroke="shift ctrl y" />
+  </action>
+  <action id="CompareClipboardWithSelection">
+    <keyboard-shortcut first-keystroke="alt altGraph d" />
   </action>
   <action id="CompareTwoFiles" />
   <action id="Console.History.Browse" />
@@ -98,6 +104,9 @@
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="altGraph w" />
+  </action>
+  <action id="ExternalSystem.RefreshAllProjects">
+    <keyboard-shortcut first-keystroke="ctrl altGraph y" />
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileMenu">
@@ -186,6 +195,21 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="alt back_slash" />
   </action>
+  <action id="StringManipulation.SwitchStyleAction">
+    <keyboard-shortcut first-keystroke="shift altGraph z" />
+  </action>
+  <action id="StringManipulation.ToDotStyleAction">
+    <keyboard-shortcut first-keystroke="shift altGraph a" />
+  </action>
+  <action id="StringManipulation.ToHyphenCaseOrCamelCase">
+    <keyboard-shortcut first-keystroke="shift altGraph s" />
+  </action>
+  <action id="StringManipulation.ToPascalCaseOrCamelCase">
+    <keyboard-shortcut first-keystroke="shift altGraph e" />
+  </action>
+  <action id="StringManipulation.ToSnakeCaseOrCamelCase">
+    <keyboard-shortcut first-keystroke="shift altGraph d" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
@@ -210,4 +234,10 @@
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="openAssertEqualsDiff" />
+  <action id="osmedile.intellij.stringmanip.ToCamelCaseAction">
+    <keyboard-shortcut first-keystroke="shift altGraph w" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.WordsAndCamelToConstantStyleCaseAction">
+    <keyboard-shortcut first-keystroke="shift altGraph q" />
+  </action>
 </keymap>

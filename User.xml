@@ -11,6 +11,9 @@
   <action id="ActivateMavenProjectsToolWindow">
     <keyboard-shortcut first-keystroke="altGraph 4" />
   </action>
+  <action id="ActivateRESTClientToolWindow">
+    <keyboard-shortcut first-keystroke="altGraph 1" />
+  </action>
   <action id="ActivateReviewsToolWindow">
     <keyboard-shortcut first-keystroke="altGraph u" />
   </action>
@@ -25,9 +28,6 @@
     <keyboard-shortcut first-keystroke="ctrl alt left" />
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="ctrl altGraph left" />
-  </action>
-  <action id="ByteCodeViewer">
-    <keyboard-shortcut first-keystroke="alt altGraph b" />
   </action>
   <action id="ChangesView.Refresh">
     <keyboard-shortcut first-keystroke="shift ctrl y" />
@@ -132,6 +132,9 @@
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
+  <action id="Git.Reset.In.Log">
+    <keyboard-shortcut first-keystroke="shift altGraph r" />
+  </action>
   <action id="GotoNextBookmark">
     <keyboard-shortcut first-keystroke="altGraph f11" />
   </action>
@@ -178,6 +181,9 @@
     <keyboard-shortcut first-keystroke="altGraph back_quote" />
   </action>
   <action id="SendEOF" />
+  <action id="ShowByteCodeJclasslib">
+    <keyboard-shortcut first-keystroke="alt altGraph b" />
+  </action>
   <action id="ShowKotlinBytecode">
     <keyboard-shortcut first-keystroke="alt altGraph k" />
   </action>

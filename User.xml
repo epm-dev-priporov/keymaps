@@ -105,6 +105,9 @@
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="altGraph w" />
   </action>
+  <action id="EvaluateExpression">
+    <keyboard-shortcut first-keystroke="altGraph f8" />
+  </action>
   <action id="ExternalSystem.RefreshAllProjects">
     <keyboard-shortcut first-keystroke="ctrl altGraph y" />
   </action>
@@ -126,14 +129,23 @@
   <action id="Git.CheckoutRevision">
     <keyboard-shortcut first-keystroke="alt altGraph r" />
   </action>
+  <action id="Git.CompareWithBranch">
+    <keyboard-shortcut first-keystroke="shift altGraph c" />
+  </action>
   <action id="Git.CreateNewBranch">
     <keyboard-shortcut first-keystroke="altGraph b" />
   </action>
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="shift altGraph p" />
+  </action>
   <action id="Git.Reset.In.Log">
     <keyboard-shortcut first-keystroke="shift altGraph r" />
+  </action>
+  <action id="Github.Create.Pull.Request">
+    <keyboard-shortcut first-keystroke="altGraph p" />
   </action>
   <action id="GotoNextBookmark">
     <keyboard-shortcut first-keystroke="altGraph f11" />
@@ -180,12 +192,22 @@
     <keyboard-shortcut first-keystroke="ctrl meta s" />
     <keyboard-shortcut first-keystroke="altGraph back_quote" />
   </action>
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="alt altGraph j" />
+  </action>
   <action id="SendEOF" />
   <action id="ShowByteCodeJclasslib">
     <keyboard-shortcut first-keystroke="alt altGraph b" />
   </action>
+  <action id="ShowExecutionPoint">
+    <keyboard-shortcut first-keystroke="altGraph f10" />
+  </action>
   <action id="ShowKotlinBytecode">
     <keyboard-shortcut first-keystroke="alt altGraph k" />
+  </action>
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="context_menu" />
+    <keyboard-shortcut first-keystroke="altGraph tab" />
   </action>
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
@@ -216,6 +238,10 @@
   <action id="StringManipulation.ToSnakeCaseOrCamelCase">
     <keyboard-shortcut first-keystroke="shift altGraph d" />
   </action>
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="ctrl alt t" />
+    <keyboard-shortcut first-keystroke="alt altGraph t" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
@@ -238,6 +264,9 @@
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="WebServicesPlugin.CreateRESTClient">
+    <keyboard-shortcut first-keystroke="altGraph 0" />
   </action>
   <action id="openAssertEqualsDiff" />
   <action id="osmedile.intellij.stringmanip.ToCamelCaseAction">

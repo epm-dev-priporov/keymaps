@@ -52,6 +52,10 @@
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
+  <action id="DBNavigator.Actions.Execute">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+    <keyboard-shortcut first-keystroke="altGraph enter" />
+  </action>
   <action id="EditorBackwardParagraph">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>

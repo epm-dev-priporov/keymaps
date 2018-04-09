@@ -153,6 +153,9 @@
   <action id="GotoPreviousBookmark">
     <keyboard-shortcut first-keystroke="ctrl altGraph f11" />
   </action>
+  <action id="Gradle.RefreshDependencies">
+    <keyboard-shortcut first-keystroke="ctrl altGraph y" />
+  </action>
   <action id="GuiDesigner.Duplicate" />
   <action id="Images.Thumbnails.Hide">
     <keyboard-shortcut first-keystroke="ctrl f4" />
@@ -163,6 +166,9 @@
   </action>
   <action id="LocalHistory">
     <keyboard-shortcut first-keystroke="altGraph h" />
+  </action>
+  <action id="Maven.Reimport">
+    <keyboard-shortcut first-keystroke="ctrl altGraph u" />
   </action>
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="ctrl alt 1" />

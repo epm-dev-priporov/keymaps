@@ -29,6 +29,9 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="ctrl altGraph left" />
   </action>
+  <action id="ByteCodeViewer">
+    <keyboard-shortcut first-keystroke="alt altGraph b" />
+  </action>
   <action id="ChangesView.Refresh">
     <keyboard-shortcut first-keystroke="shift ctrl y" />
   </action>
@@ -46,6 +49,7 @@
     <keyboard-shortcut first-keystroke="alt altGraph d" />
   </action>
   <action id="CompareTwoFiles" />
+  <action id="Compile" />
   <action id="Console.History.Browse" />
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.PreviousPage" />
@@ -55,6 +59,9 @@
   <action id="DBNavigator.Actions.Execute">
     <keyboard-shortcut first-keystroke="ctrl enter" />
     <keyboard-shortcut first-keystroke="altGraph enter" />
+  </action>
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f9" />
   </action>
   <action id="EditorBackwardParagraph">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
@@ -194,6 +201,9 @@
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="altGraph r" />
   </action>
+  <action id="RunConfiguration">
+    <keyboard-shortcut first-keystroke="altGraph f12" />
+  </action>
   <action id="Runner.CloseAllViews">
     <keyboard-shortcut first-keystroke="ctrl alt e" />
   </action>
@@ -221,6 +231,10 @@
   </action>
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
+    <keyboard-shortcut first-keystroke="shift ctrl altGraph s" />
   </action>
   <action id="ShowUmlDiagram">
     <keyboard-shortcut first-keystroke="shift ctrl alt u" />
@@ -275,8 +289,15 @@
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
+  <action id="VcsShowPrevChangeMarker">
+    <keyboard-shortcut first-keystroke="shift ctrl alt up" />
+    <keyboard-shortcut first-keystroke="altGraph up" />
+  </action>
   <action id="WebServicesPlugin.CreateRESTClient">
     <keyboard-shortcut first-keystroke="altGraph 0" />
+  </action>
+  <action id="editRunConfigurations">
+    <keyboard-shortcut first-keystroke="ctrl altGraph f12" />
   </action>
   <action id="openAssertEqualsDiff" />
   <action id="osmedile.intellij.stringmanip.ToCamelCaseAction">

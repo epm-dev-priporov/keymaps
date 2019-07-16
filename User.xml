@@ -11,6 +11,9 @@
   <action id="ActivateMavenProjectsToolWindow">
     <keyboard-shortcut first-keystroke="altGraph 4" />
   </action>
+  <action id="ActivateMavenToolWindow">
+    <keyboard-shortcut first-keystroke="altGraph 4" />
+  </action>
   <action id="ActivateRESTClientToolWindow">
     <keyboard-shortcut first-keystroke="altGraph 1" />
   </action>
@@ -32,6 +35,9 @@
   <action id="ByteCodeViewer">
     <keyboard-shortcut first-keystroke="alt altGraph b" />
   </action>
+  <action id="ChangesView.Move">
+    <keyboard-shortcut first-keystroke="alt altGraph m" />
+  </action>
   <action id="ChangesView.Refresh">
     <keyboard-shortcut first-keystroke="shift ctrl y" />
   </action>
@@ -51,6 +57,9 @@
   <action id="CompareTwoFiles" />
   <action id="Compile" />
   <action id="Console.History.Browse" />
+  <action id="Console.TableResult.EditValueMaximized">
+    <keyboard-shortcut first-keystroke="shift enter" />
+  </action>
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.PreviousPage" />
   <action id="ConsoleView.ClearAll">
@@ -63,8 +72,17 @@
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="shift ctrl f9" />
   </action>
+  <action id="DisableInspection">
+    <keyboard-shortcut first-keystroke="altGraph equals" />
+  </action>
   <action id="EditorBackwardParagraph">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="ctrl altGraph z" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="ctrl altGraph x" />
   </action>
   <action id="EditorContextInfo" />
   <action id="EditorCutLineEnd">
@@ -115,6 +133,9 @@
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="altGraph w" />
+  </action>
+  <action id="EditorSwapSelectionBoundaries">
+    <keyboard-shortcut first-keystroke="altGraph back_slash" />
   </action>
   <action id="EvaluateExpression">
     <keyboard-shortcut first-keystroke="altGraph f8" />
@@ -197,6 +218,9 @@
     <keyboard-shortcut first-keystroke="alt close_bracket" />
   </action>
   <action id="PreviousOccurence" />
+  <action id="RearrangeCode">
+    <keyboard-shortcut first-keystroke="ctrl altGraph l" />
+  </action>
   <action id="RecentFiles" />
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="altGraph r" />
@@ -281,13 +305,22 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
+  <action id="UnmarkRoot">
+    <keyboard-shortcut first-keystroke="alt altGraph u" />
+  </action>
   <action id="UnsplitAll">
     <keyboard-shortcut first-keystroke="alt semicolon" />
   </action>
   <action id="UsageView.ShowRecentFindUsages" />
+  <action id="Vcs.Force.Push">
+    <keyboard-shortcut first-keystroke="ctrl altGraph p" />
+  </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="alt altGraph h" />
   </action>
   <action id="VcsShowPrevChangeMarker">
     <keyboard-shortcut first-keystroke="shift ctrl alt up" />

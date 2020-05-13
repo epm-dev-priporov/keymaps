@@ -14,6 +14,9 @@
   <action id="ActivateMavenToolWindow">
     <keyboard-shortcut first-keystroke="altGraph 4" />
   </action>
+  <action id="ActivateMongoExplorerToolWindow">
+    <keyboard-shortcut first-keystroke="altGraph 5" />
+  </action>
   <action id="ActivateRESTClientToolWindow">
     <keyboard-shortcut first-keystroke="altGraph 1" />
   </action>

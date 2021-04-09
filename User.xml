@@ -228,6 +228,9 @@
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="altGraph r" />
   </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="alt altGraph c" />
+  </action>
   <action id="RunConfiguration">
     <keyboard-shortcut first-keystroke="altGraph f12" />
   </action>
@@ -241,6 +244,9 @@
   </action>
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="alt altGraph j" />
+  </action>
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="altGraph back_quote" />
   </action>
   <action id="SendEOF" />
   <action id="ShowByteCodeJclasslib">

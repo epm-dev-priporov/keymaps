@@ -41,6 +41,9 @@
   <action id="ChangesView.Move">
     <keyboard-shortcut first-keystroke="alt altGraph m" />
   </action>
+  <action id="ChangesView.NewChangeList">
+    <keyboard-shortcut first-keystroke="alt altGraph l" />
+  </action>
   <action id="ChangesView.Refresh">
     <keyboard-shortcut first-keystroke="shift ctrl y" />
   </action>
@@ -228,6 +231,18 @@
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="altGraph r" />
   </action>
+  <action id="ResizeToolWindowDown">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="ResizeToolWindowLeft">
+    <keyboard-shortcut first-keystroke="shift ctrl left" />
+  </action>
+  <action id="ResizeToolWindowRight">
+    <keyboard-shortcut first-keystroke="shift ctrl right" />
+  </action>
+  <action id="ResizeToolWindowUp">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="alt altGraph c" />
   </action>
@@ -280,6 +295,18 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="alt back_slash" />
   </action>
+  <action id="StretchSplitToBottom">
+    <keyboard-shortcut first-keystroke="shift ctrl numpad8" />
+  </action>
+  <action id="StretchSplitToLeft">
+    <keyboard-shortcut first-keystroke="shift ctrl numpad6" />
+  </action>
+  <action id="StretchSplitToRight">
+    <keyboard-shortcut first-keystroke="shift ctrl numpad2" />
+  </action>
+  <action id="StretchSplitToTop">
+    <keyboard-shortcut first-keystroke="shift ctrl numpad4" />
+  </action>
   <action id="StringManipulation.SwitchStyleAction">
     <keyboard-shortcut first-keystroke="shift altGraph z" />
   </action>
@@ -325,6 +352,9 @@
     <keyboard-shortcut first-keystroke="ctrl altGraph p" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.Push.Force">
+    <keyboard-shortcut first-keystroke="ctrl altGraph p" />
+  </action>
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>

@@ -195,6 +195,12 @@
     <keyboard-shortcut first-keystroke="ctrl altGraph y" />
   </action>
   <action id="GuiDesigner.Duplicate" />
+  <action id="HTTP.Request.NewFile">
+    <keyboard-shortcut first-keystroke="ctrl altGraph s" />
+  </action>
+  <action id="HTTPClient.NewRequestInToolMenuAction">
+    <keyboard-shortcut first-keystroke="ctrl altGraph a" />
+  </action>
   <action id="Images.Thumbnails.Hide">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
@@ -230,6 +236,9 @@
   <action id="RecentFiles" />
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="altGraph r" />
+  </action>
+  <action id="ResetPomodorosCounter">
+    <keyboard-shortcut first-keystroke="alt altGraph o" />
   </action>
   <action id="ResizeToolWindowDown">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
@@ -295,6 +304,9 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="alt back_slash" />
   </action>
+  <action id="StartOrStopPomodoro">
+    <keyboard-shortcut first-keystroke="alt altGraph p" />
+  </action>
   <action id="StretchSplitToBottom">
     <keyboard-shortcut first-keystroke="shift ctrl numpad8" />
   </action>
@@ -313,14 +325,14 @@
   <action id="StringManipulation.ToDotStyleAction">
     <keyboard-shortcut first-keystroke="shift altGraph a" />
   </action>
+  <action id="StringManipulation.ToHyphenCaseAction">
+    <keyboard-shortcut first-keystroke="shift altGraph d" />
+  </action>
   <action id="StringManipulation.ToHyphenCaseOrCamelCase">
     <keyboard-shortcut first-keystroke="shift altGraph s" />
   </action>
   <action id="StringManipulation.ToPascalCaseOrCamelCase">
     <keyboard-shortcut first-keystroke="shift altGraph e" />
-  </action>
-  <action id="StringManipulation.ToSnakeCaseOrCamelCase">
-    <keyboard-shortcut first-keystroke="shift altGraph d" />
   </action>
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="ctrl alt t" />

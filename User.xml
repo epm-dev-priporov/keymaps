@@ -17,6 +17,9 @@
   <action id="ActivateMongoExplorerToolWindow">
     <keyboard-shortcut first-keystroke="altGraph 5" />
   </action>
+  <action id="ActivateNotesToolWindow">
+    <keyboard-shortcut first-keystroke="alt altGraph 3" />
+  </action>
   <action id="ActivateRESTClientToolWindow">
     <keyboard-shortcut first-keystroke="altGraph 1" />
   </action>
@@ -210,6 +213,15 @@
   </action>
   <action id="LocalHistory">
     <keyboard-shortcut first-keystroke="altGraph h" />
+  </action>
+  <action id="Markdown.Layout.EditorAndPreview">
+    <keyboard-shortcut first-keystroke="ctrl altGraph w" />
+  </action>
+  <action id="Markdown.Layout.EditorOnly">
+    <keyboard-shortcut first-keystroke="ctrl altGraph q" />
+  </action>
+  <action id="Markdown.Layout.PreviewOnly">
+    <keyboard-shortcut first-keystroke="ctrl altGraph e" />
   </action>
   <action id="Maven.Reimport">
     <keyboard-shortcut first-keystroke="ctrl altGraph u" />

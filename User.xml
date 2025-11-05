@@ -30,6 +30,9 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
+  <action id="ActivateYCalendarToolWindow">
+    <keyboard-shortcut first-keystroke="alt altGraph 4" />
+  </action>
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="alt altGraph a" />
   </action>
@@ -73,6 +76,10 @@
   <action id="Console.TableResult.PreviousPage" />
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="CopyReference">
+    <keyboard-shortcut first-keystroke="shift ctrl alt c" />
+    <keyboard-shortcut first-keystroke="ctrl altGraph c" />
   </action>
   <action id="DBNavigator.Actions.Execute">
     <keyboard-shortcut first-keystroke="ctrl enter" />
@@ -237,6 +244,9 @@
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
+  <action id="PasteBranchNameAction">
+    <keyboard-shortcut first-keystroke="shift ctrl altGraph q" />
+  </action>
   <action id="PerforceDirect.Edit" />
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="alt close_bracket" />
@@ -364,6 +374,15 @@
   </action>
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="TextEditorWithPreview.Layout.EditorAndPreview">
+    <keyboard-shortcut first-keystroke="ctrl altGraph w" />
+  </action>
+  <action id="TextEditorWithPreview.Layout.EditorOnly">
+    <keyboard-shortcut first-keystroke="ctrl altGraph q" />
+  </action>
+  <action id="TextEditorWithPreview.Layout.PreviewOnly">
+    <keyboard-shortcut first-keystroke="ctrl altGraph e" />
   </action>
   <action id="UnmarkRoot">
     <keyboard-shortcut first-keystroke="alt altGraph u" />

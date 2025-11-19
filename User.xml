@@ -415,6 +415,15 @@
     <keyboard-shortcut first-keystroke="ctrl altGraph f12" />
   </action>
   <action id="openAssertEqualsDiff" />
+  <action id="org.plantuml.idea.preview.editor.editorLayout.EditorAndPreviewLayoutChangeAction">
+    <keyboard-shortcut first-keystroke="ctrl altGraph w" />
+  </action>
+  <action id="org.plantuml.idea.preview.editor.editorLayout.EditorOnlyLayoutChangeAction">
+    <keyboard-shortcut first-keystroke="ctrl altGraph q" />
+  </action>
+  <action id="org.plantuml.idea.preview.editor.editorLayout.PreviewOnlyLayoutChangeAction">
+    <keyboard-shortcut first-keystroke="ctrl altGraph e" />
+  </action>
   <action id="osmedile.intellij.stringmanip.ToCamelCaseAction">
     <keyboard-shortcut first-keystroke="shift altGraph w" />
   </action>

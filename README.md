@@ -1,4 +1,4 @@
-# 1. View Path in Breadcrumbs
+# 1. View Json Path in Breadcrumbs
 The easiest way to see the path in real-time is by enabling breadcrumbs:     
 Go to File > Settings (or IntelliJ IDEA > Preferences on macOS) > Editor > General > Breadcrumbs.     
 Ensure the Show breadcrumbs checkbox is selected and the language is set to include JSON.      
